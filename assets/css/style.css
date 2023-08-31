@@ -1,23 +1,17 @@
-:root {
-    --teal:rgb(6,92,92);
-    --blue:#144d9e;
-    --yellow:#d4af37;
-    
 
-}
-
+/* Universal */
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 
-
+/* changes the body */
 body {
     background-color: rgb(21, 70, 23);
     margin: 0;
     padding: 0;
 }
-
+/* adds a white box at the top of the page */
 .white-box {
     vertical-align: top;
     color: white;
@@ -26,14 +20,14 @@ body {
     width: 100%;
     height: 20px;
 }
-
+/* customizes the totoro gif */
 .totoro {
     width: 200px;
     height: 200px;
     
     
 }
-
+/* customizing header */
 .header {
     background-color: black;
     box-sizing: border-box;
@@ -43,7 +37,7 @@ body {
     width: 100%;
 
 }
-
+/* customizing font in header */
 h1 {
     font-family: 'Courier New', Courier, monospace;
     width: (100%-100px);
@@ -56,22 +50,21 @@ h1 {
       
 }
 
+/* customizing orientation of nav */
 .header nav {
     margin:auto;
     padding-top: 20px;
-    
+
 }
 
-
+/* customises orientaiton of the lists */
 .header nav ul li {
-     
     display: inline;
-    margin:auto;
-    
-    
-    
+    margin:auto; 
+
 }
 
+/* customizes lists */
 .header nav ul li a {
     color: white;
     font-size: 20px;
@@ -79,18 +72,18 @@ h1 {
     padding:20px;
     text-decoration: none;
 }
-
+/* hover feature for lists */
 .header nav ul li a:hover {
 
     font-size: 25px;
 }
 
-
+/* main img*/
 .forest {
     width: 100%;
     
 }
-
+/* header for all articles */
 .head {
    margin:50px;
    padding-right:5px;
@@ -100,7 +93,7 @@ h1 {
 }
 
 
-
+/* about me section */
 .about-me {
     
     display: flex;
@@ -108,13 +101,13 @@ h1 {
     
 
 }
-
+/* description in about me */
 .descr {
     text-align: center;
     width: 80%;
 
 }
-
+/* work seciton */
 .work {
     display: inline-flex;
     flex-wrap: wrap;
@@ -122,7 +115,7 @@ h1 {
 
 }
 
-
+/*general work example orientation */
 .cards {
     display: inline-flex;
     flex-wrap: wrap;
@@ -131,7 +124,7 @@ h1 {
 }
 
 
-
+/* specific work exmaple orientation */
 .card {
     display:block;
     flex: auto;
@@ -140,7 +133,7 @@ h1 {
     position: relative; 
     flex-wrap: wrap;
 }
-
+/* text block at the bottom left of piuctures */
 .text-block {
     position: absolute;
     bottom: 20px;
@@ -151,6 +144,7 @@ h1 {
     padding-right: 20px;
   }
 
+  /* making the image large */
 .largeimg {
     display: inline;
     width: 70%;
@@ -175,7 +169,7 @@ h1 {
 
 
 
-
+/* customizing small img */
 .smallimg {
     
     width: 70%;
@@ -187,7 +181,7 @@ h1 {
 .smallimg:hover {
     opacity: 0.8;
 }
-
+/* contact me section*/
 .contact-me {
     display: flex;
     flex-wrap: wrap;

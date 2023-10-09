@@ -7,7 +7,7 @@ N/a
 
 #Usage
 
-go to website mitchmcnaughton.github.io/portfolio
+go to website [mitchmcnaughton.github.io/portfolio](https://mitchmcnaughton.github.io/portfolio/)
 
 should look similar to this
 

@@ -11,7 +11,7 @@ go to website mitchmcnaughton.github.io/portfolio
 
 should look similar to this
 
-![Alt text](portfolio.PNG)!
+![Alt text](./assets/img/portfolio.PNG)
 
 #Credits
 
